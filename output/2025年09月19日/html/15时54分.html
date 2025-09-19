@@ -1,0 +1,87 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-09-19 15:54:08</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">小米 华为 苹果</td>
+                    <td class="count">12</td>
+                    <td class="percentage">4.71%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31632835" target="_blank" class="news-link">小米召回11万辆SU7标准版：L2辅助驾驶对极端特殊场景的处置等可能不足，存安全隐患</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时54分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2149898" target="_blank" class="news-link">L2高速领航辅助驾驶功能存隐患 超三成小米SU7被召回、总量逾10万台</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时54分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%8F%AC%E5%9B%9E116887%E8%BE%86SU7" target="_blank" class="news-link">小米汽车召回116887辆SU7</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时54分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2149775" target="_blank" class="news-link">小米召回部分SU7标准版 共计116887辆</a> [9] <font color='grey'>- 15时54分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E4%B8%93%E8%AE%BF%E8%8B%B9%E6%9E%9C%E9%AB%98%E7%AE%A1" target="_blank" class="news-link">UP主专访苹果高管</a> [14] <font color='grey'>- 15时54分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%B8%83%E5%A4%9A%E9%A2%97%E6%96%B0%E6%98%87%E8%85%BE%E8%8A%AF%E7%89%87" target="_blank" class="news-link">华为公布多颗新昇腾芯片</a> [15] <font color='grey'>- 15时54分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1952306925308961624" target="_blank" class="news-link">小米汽车召回 116887 辆 SU7 标准版电动汽车，通过 OTA 免费升级软件，此次召回对小米影响有多大？</a> [19] <font color='grey'>- 15时54分</font><br>[douyin] <a href="https://www.douyin.com/hot/2241851" target="_blank" class="news-link">小米汽车回应召回</a> [20] <font color='grey'>- 15时54分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E5%B0%8F%E7%B1%B3%E5%8F%AC%E5%9B%9E11.7%E4%B8%87%E8%BE%86SU7" target="_blank" class="news-link">雷军回应小米召回11.7万辆SU7</a> [22] <font color='grey'>- 15时54分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7551608172717477426/" target="_blank" class="news-link">小米召回116887辆SU7电动汽车</a> [25] <font color='grey'>- 15时54分</font><br>[douyin] <a href="https://www.douyin.com/hot/2241699" target="_blank" class="news-link">小米召回11.6万辆标准版SU7</a> [26] <font color='grey'>- 15时54分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345066&amp;amp;topic_name=%E6%88%B7%E5%9C%A3%E8%A2%AB%E5%B0%81%2C%E8%8B%B9%E6%9E%9C%E6%88%98%E5%A3%AB%E8%BD%B0%E7%84%B6%E5%80%92%E5%9C%B0" target="_blank" class="news-link">户圣被封,苹果战士轰然倒地</a> [28] <font color='grey'>- 15时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">微信</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31627587" target="_blank" class="news-link">杭州一女教师在三人微信群聊天因诽谤被行拘，起诉执法部门一审将开庭</a> [15] <font color='grey'>- 15时54分</font></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        

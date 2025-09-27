@@ -1,0 +1,82 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-09-27 14:54:03</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">小米 华为 苹果</td>
+                    <td class="count">10</td>
+                    <td class="percentage">3.92%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1953501229457072592" target="_blank" class="news-link">日本「苹果病」流行达到历史顶点，孕妇感染或致流产或胎儿畸形，这种疾病靠什么传播？该如何预防和控制？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时54分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345382&amp;amp;topic_name=%E5%B0%8F%E7%B1%B317%E9%A6%96%E9%94%80%E7%88%86%E5%86%B7%2C%E6%88%B7%E5%9C%A3%E9%A2%84%E8%A8%80%E6%88%90%E7%9C%9F%EF%BC%9F" target="_blank" class="news-link">小米17首销爆冷,户圣预言成真？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时54分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317%E7%A0%B425%E5%B9%B4%E5%9B%BD%E4%BA%A7%E6%89%8B%E6%9C%BA%E9%A6%96%E9%94%80%E7%BA%AA%E5%BD%95%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26band_rank%3D4%26pos%3D3%26q%3D%2523%25E5%25B0%258F%25E7%25B1%25B317%25E7%25A0%25B425%25E5%25B9%25B4%25E5%259B%25BD%25E4%25BA%25A7%25E6%2589%258B%25E6%259C%25BA%25E9%25A6%2596%25E9%2594%2580%25E7%25BA%25AA%25E5%25BD%2595%2523%26c_type%3D31%26flag%3D0%26realpos%3D4%26cate%3D5001%26filter_type%3Drealtimehot%26dgr%3D0%26display_time%3D1758955813%26pre_seqid%3D17589558138480237105222" target="_blank" class="news-link">小米17破25年国产手机首销纪录</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时54分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B317%E7%A0%B425%E5%B9%B4%E5%9B%BD%E4%BA%A7%E6%89%8B%E6%9C%BA%E9%A6%96%E9%94%80%E7%BA%AA%E5%BD%95" target="_blank" class="news-link">小米17破25年国产手机首销纪录</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时54分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756319" target="_blank" class="news-link">创业板跌超2%，AI硬件、算力股普跌，恒科指跌近3%，小米跌8%，国债反弹，商品分化</a> [9] <font color='grey'>- 14时54分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1955233628452808123" target="_blank" class="news-link">小米 17 系列开售 5 分钟刷新 2025 国产手机首销全天销量纪录，原因有哪些？怎样看待这一成绩？</a> [12] <font color='grey'>- 14时54分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2157899" target="_blank" class="news-link">特朗普或考虑对乌提供远程武器 苹果据悉开发类ChatGPT应用 | 环球市场</a> [13] <font color='grey'>- 14时54分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345338&amp;amp;topic_name=%E6%AD%BB%E7%A3%95%E8%8B%B9%E6%9E%9C%2C%E5%B0%8F%E7%B1%B317%E7%B3%BB%E5%88%97%E5%AE%9A%E4%BB%B7%E5%A4%AA%E8%87%AA%E4%BF%A1" target="_blank" class="news-link">死磕苹果,小米17系列定价太自信</a> [17] <font color='grey'>- 14时54分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345354&amp;amp;topic_name=%E4%B8%8D%E6%8D%A7%E5%8D%8E%E4%B8%BA%E8%A2%AB%E6%8C%82%2C%E8%80%81%E5%B8%88%E6%88%90%E7%8C%8E%E5%B7%AB%E7%9B%AE%E6%A0%87" target="_blank" class="news-link">不捧华为被挂,老师成猎巫目标</a> [20] <font color='grey'>- 14时54分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B317%E7%B3%BB%E5%88%97%E5%BC%80%E5%94%AE+%E5%A4%9A%E5%9C%B0%E9%97%A8%E5%BA%97%E6%8E%92%E9%95%BF%E9%98%9F" target="_blank" class="news-link">小米17系列开售 多地门店排长队</a> [25] <font color='grey'>- 14时54分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1955233628452808123" target="_blank" class="news-link">小米 17 系列开售 5 分钟刷新 2025 国产手机首销全天销量纪录，原因有哪些？怎样看待这一成绩？</a> [12]</li></ul></div>
+        </body>
+        </html>
+        

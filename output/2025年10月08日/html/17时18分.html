@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-08 17:18:27</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">王者荣耀</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E5%B4%A9%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D8%26q%3D%25E7%258E%258B%25E8%2580%2585%25E8%258D%25A3%25E8%2580%2580%25E5%25B4%25A9%25E4%25BA%2586%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D8%26flag%3D1%26cate%3D5001%26pos%3D8%26dgr%3D0%26display_time%3D1759914949%26pre_seqid%3D17599149498590235420759" target="_blank" class="news-link">王者荣耀崩了</a> [8] <font color='grey'>- 17时18分</font></div><br>[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D17%26q%3D%25E7%258E%258B%25E8%2580%2585%25E8%258D%25A3%25E8%2580%2580%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D17%26flag%3D0%26cate%3D5001%26pos%3D17%26dgr%3D0%26display_time%3D1759914949%26pre_seqid%3D17599149498590235420759" target="_blank" class="news-link">王者荣耀</a> [17] <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">小米 华为 苹果</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7558698501702582314/" target="_blank" class="news-link">女子暴躁辅导作业老公在旁吃苹果挨骂</a> [10] <font color='grey'>- 17时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">微信</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%BE%8E%E9%A9%BB%E5%8D%8E%E5%A4%A7%E4%BD%BF%E9%A6%86%E5%AE%A3%E5%B8%83%E5%BE%AE%E5%8D%9A%E5%BE%AE%E4%BF%A1%E5%81%9C%E6%9B%B4%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D28%26q%3D%2523%25E7%25BE%258E%25E9%25A9%25BB%25E5%258D%258E%25E5%25A4%25A7%25E4%25BD%25BF%25E9%25A6%2586%25E5%25AE%25A3%25E5%25B8%2583%25E5%25BE%25AE%25E5%258D%259A%25E5%25BE%25AE%25E4%25BF%25A1%25E5%2581%259C%25E6%259B%25B4%2523%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D28%26flag%3D0%26cate%3D5001%26pos%3D28%26dgr%3D0%26display_time%3D1759914949%26pre_seqid%3D17599149498590235420759" target="_blank" class="news-link">美驻华大使馆宣布微博微信停更</a> [28] <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7558698501702582314/" target="_blank" class="news-link">女子暴躁辅导作业老公在旁吃苹果挨骂</a> [10]</li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E5%B4%A9%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D8%26q%3D%25E7%258E%258B%25E8%2580%2585%25E8%258D%25A3%25E8%2580%2580%25E5%25B4%25A9%25E4%25BA%2586%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D8%26flag%3D1%26cate%3D5001%26pos%3D8%26dgr%3D0%26display_time%3D1759914949%26pre_seqid%3D17599149498590235420759" target="_blank" class="news-link">王者荣耀崩了</a> [8]</li></ul></div>
+        </body>
+        </html>
+        

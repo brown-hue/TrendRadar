@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-20 22:54:07</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">小米 华为 苹果</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757466" target="_blank" class="news-link">贸易局势、美信贷恐慌缓解，纳指100涨1%，苹果新高，现货金突破4330美元，比特币涨超2%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时54分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757463" target="_blank" class="news-link">苹果打出翻身仗！新iPhone引爆近年来最强换机潮</a> [7] <font color='grey'>- 22时54分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345939&amp;amp;topic_name=%E5%AA%92%E4%BD%93%E7%82%AE%E8%BD%B0%E9%9B%B7%E5%86%9B%2C%E5%B0%8F%E7%B1%B3%E5%8F%A3%E7%A2%91%E5%B4%A9%E5%A1%8C" target="_blank" class="news-link">媒体炮轰雷军,小米口碑崩塌</a> [10] <font color='grey'>- 22时54分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7562144179561005102/" target="_blank" class="news-link">小米SU7借朋友开10分钟被撞烂</a> [20] <font color='grey'>- 22时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">英超 曼联</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9B%BC%E8%81%94%E7%BB%9D%E6%9D%80%E5%88%A9%E7%89%A9%E6%B5%A6" target="_blank" class="news-link">曼联绝杀利物浦</a> [16] <font color='grey'>- 22时54分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9B%BC%E8%81%94%E6%97%B6%E9%9A%94%E4%B9%9D%E5%B9%B4%E5%AE%A2%E8%83%9C%E5%88%A9%E7%89%A9%E6%B5%A6" target="_blank" class="news-link">曼联时隔九年客胜利物浦</a> [18] <font color='grey'>- 22时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">王者荣耀</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iQOO15%E9%A6%96%E5%8F%91%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80144FPS%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D28%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26dgr%3D0%26stream_entry_id%3D31%26lcate%3D5001%26realpos%3D27%26flag%3D0%26band_rank%3D27%26q%3D%2523iQOO15%25E9%25A6%2596%25E5%258F%2591%25E7%258E%258B%25E8%2580%2585%25E8%258D%25A3%25E8%2580%2580144FPS%2523%26display_time%3D1760972003%26pre_seqid%3D176097200312701462334119" target="_blank" class="news-link">iQOO15首发王者荣耀144FPS</a> [27] <font color='grey'>- 22时54分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3757466" target="_blank" class="news-link">贸易局势、美信贷恐慌缓解，纳指100涨1%，苹果新高，现货金突破4330美元，比特币涨超2%</a> <font color='red'><strong>[2]</strong></font></li></ul></div>
+        </body>
+        </html>
+        

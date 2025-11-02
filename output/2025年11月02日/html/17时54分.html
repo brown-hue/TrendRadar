@@ -1,0 +1,90 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-11-02 17:54:04</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">小米 华为 苹果</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758477" target="_blank" class="news-link">10月新能源车企成绩单：零跑交付首破7万、小鹏、蔚来齐创纪录，小米交付站稳4万</a> [8] <font color='grey'>- 17时54分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1968007806016819893" target="_blank" class="news-link">十月零跑交付 7 万辆，小鹏交付 4.2 万辆，蔚来小米均交付 4 万辆，理想交付 3.18 万辆，如何评价各家表现？</a> [9] <font color='grey'>- 17时54分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">微信</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%90%B4%E6%98%95%E5%BE%AE%E4%BF%A1%E5%A5%BD%E5%8F%8B%E7%AB%9F%E7%84%B6%E8%BF%99%E4%B9%88%E5%B0%91&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26pos%3D16%26q%3D%25E5%2590%25B4%25E6%2598%2595%25E5%25BE%25AE%25E4%25BF%25A1%25E5%25A5%25BD%25E5%258F%258B%25E7%25AB%259F%25E7%2584%25B6%25E8%25BF%2599%25E4%25B9%2588%25E5%25B0%2591%26realpos%3D16%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D16%26cate%3D5001%26dgr%3D0%26flag%3D2%26display_time%3D1762076700%26pre_seqid%3D17620767006040252124665&amp;launchid=10000360-page_H5" target="_blank" class="news-link">吴昕微信好友竟然这么少</a> [16] <font color='grey'>- 17时54分</font><br><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%B3%A8%E9%94%80%E5%90%8E%E7%9A%84%E5%BE%AE%E4%BF%A1%E6%98%AF%E4%BB%80%E4%B9%88%E6%A0%B7%E5%AD%90&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26pos%3D24%26q%3D%25E6%25B3%25A8%25E9%2594%2580%25E5%2590%258E%25E7%259A%2584%25E5%25BE%25AE%25E4%25BF%25A1%25E6%2598%25AF%25E4%25BB%2580%25E4%25B9%2588%25E6%25A0%25B7%25E5%25AD%2590%26realpos%3D24%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D24%26cate%3D5001%26dgr%3D0%26flag%3D1%26display_time%3D1762076700%26pre_seqid%3D17620767006040252124665&amp;launchid=10000360-page_H5" target="_blank" class="news-link">注销后的微信是什么样子</a> [24] <font color='grey'>- 17时54分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%B3%A8%E9%94%80%E5%90%8E%E7%9A%84%E5%BE%AE%E4%BF%A1%E6%98%AF%E4%BB%80%E4%B9%88%E6%A0%B7%E5%AD%90&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26lcate%3D5001%26pos%3D24%26q%3D%25E6%25B3%25A8%25E9%2594%2580%25E5%2590%258E%25E7%259A%2584%25E5%25BE%25AE%25E4%25BF%25A1%25E6%2598%25AF%25E4%25BB%2580%25E4%25B9%2588%25E6%25A0%25B7%25E5%25AD%2590%26realpos%3D24%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D24%26cate%3D5001%26dgr%3D0%26flag%3D1%26display_time%3D1762076700%26pre_seqid%3D17620767006040252124665&amp;launchid=10000360-page_H5" target="_blank" class="news-link">注销后的微信是什么样子</a> [24]</li></ul></div>
+        </body>
+        </html>
+        
